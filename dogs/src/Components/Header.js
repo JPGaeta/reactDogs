@@ -6,7 +6,6 @@ import { UserContext } from '../UserContext';
 
 export const Header = () => {
   const { data } = React.useContext(UserContext);
-
   return (
     <div className={styles.header}>
       <nav className={`${styles.nav} container`}>
