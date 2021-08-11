@@ -81,3 +81,5 @@ export const UserStorage = ({ children }) => {
     </UserContext.Provider>
   );
 };
+
+export default UserContext;
