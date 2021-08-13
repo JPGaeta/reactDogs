@@ -3,7 +3,6 @@
   grid-template-columns: 1fr auto;
   align-items: stretch;
   margin: 1rem;
-  grid-row: 4/4;
 }
 
 .single.form {

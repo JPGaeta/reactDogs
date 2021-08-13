@@ -1,7 +1,7 @@
 import React from 'react';
 import FeedModal from '../Feed/FeedModal';
 import FeedPhoto from '../Feed/FeedPhoto';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 const Feed = ({ user }) => {
   const [modalPhoto, setModalPhoto] = React.useState(null);
   const [pages, setPages] = React.useState([1]);
